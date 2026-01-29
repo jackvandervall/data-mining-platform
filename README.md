@@ -8,7 +8,7 @@
 
 AutoCrisp strictly adheres to the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) methodology. It utilizes a multi-agent architecture to enforce rigor in the **Business Understanding** and **Data Preparation** phases, preventing the common "garbage-in, garbage-out" failure mode of autonomous AI.
 
-![Image](https://github.com/user-attachments/assets/6ca75997-8db6-4b87-bb40-71685817d802)
+![Architecture](https://github.com/user-attachments/assets/8fdfaff0-32c1-4830-b311-0a6b376275a3)
 
 
 ## Key Features
@@ -35,13 +35,6 @@ AutoCrisp maps specific AI agents to the phases of the industry-standard data mi
 
 The system initiates with an Orchestration Agent that scopes the problem. It delegates tasks to research agents capable of literature review and dataset discovery.
 
-**Orchestration Agent**
-![Image](https://github.com/user-attachments/assets/a7f5bae7-9175-4c41-b90c-17dd8c3edb20)
-
-**Research Agents**
-![Image](https://github.com/user-attachments/assets/83e0f309-842a-4049-9f0a-ab07d3928c2c)
-
-
 ### 2. Phase: Data Operations & Modeling (AG2 Agents)
 
 Once data is ingested, specialized Autogen agents take over. These agents operate in a conversable loop to execute:
@@ -50,7 +43,6 @@ Once data is ingested, specialized Autogen agents take over. These agents operat
 * **Feature Engineering:** Proposing and creating new variables based on domain context.
 * **Training & Evaluation:** Running scikit-learn/PyTorch models and interpreting confusion matrices for the user.
 
-**Agentic CRISP-DM Diagram**
 ![Image](https://github.com/user-attachments/assets/6ca75997-8db6-4b87-bb40-71685817d802)
 
 ## Installation & Setup
