@@ -8,7 +8,7 @@
 
 AutoCrisp strictly adheres to the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) methodology. It utilizes a multi-agent architecture to enforce rigor in the **Business Understanding** and **Data Preparation** phases, preventing the common "garbage-in, garbage-out" failure mode of autonomous AI.
 
-![Architecture](https://github.com/user-attachments/assets/8fdfaff0-32c1-4830-b311-0a6b376275a3)
+![Architecture](https://github.com/jackvandervall/data-mining-platform/blob/main/assets/mermaid-diagram.png)
 
 
 ## Key Features
